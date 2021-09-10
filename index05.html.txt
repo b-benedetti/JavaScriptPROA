@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Barbara Benedetti Cavalcante">
+    <title>Mostrar o HTML oculto</title>
+</head>
+
+<body>
+    <h2>O parágrafo abaixo irá desaparecer.</h2>
+    <p id="sumir">Esse parágrafo irá desaparecer.</p>
+
+    <button type="button" onclick="document.getElementById('sumir').style.display='none'">Clique aqui!</button>
+
+
+</body>
+
+</html>
